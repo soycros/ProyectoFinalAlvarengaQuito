@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: #918585;
 }
 
 section {
@@ -10,7 +10,7 @@ section {
 }
 
 h2 {
-  color: #333;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -31,7 +31,7 @@ h2 {
 }
 
 .navbar {
-  background-color: #222;
+  background-color: #d6c0c0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,9 +40,10 @@ h2 {
 }
 
 .navbar a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
-  margin: 0 0.5rem;
+  margin: 0 1rem;
+  font-size: 20px;
 }
 
 .navbar .logo {
@@ -67,7 +68,7 @@ h2 {
 }
 
 .navbar-logo {
-  height: 50px;
+  height: 100px;
   object-fit: contain;
   cursor: pointer;
 }
