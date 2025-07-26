@@ -1,11 +1,11 @@
 import { Link, NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
-import logo from "../../assets/logo.png";
+import Logo from "../assets/logo.png"
 
 const NavBar = () => {
   return (
     <header className="navbar">
-      <Link to="/" className="logo">TechStore</Link>
+      <Link to="/" className="logo">MATZA</Link>
       <nav>
         <NavLink to="/category/laptops">Laptops</NavLink>
         <NavLink to="/category/mobiles">Móviles</NavLink>
