@@ -14,7 +14,7 @@ const CheckoutForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     const order = {
       buyer: { nombre, email, telefono },
       items: cart,

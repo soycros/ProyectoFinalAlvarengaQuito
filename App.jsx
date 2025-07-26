@@ -4,6 +4,7 @@ import ItemListContainer from "./src/components/ItemList/ItemListContainer";
 import ItemDetailContainer from "./src/components/ItemDetail/ItemDetailContainer";
 import Cart from "./src/components/Cart/Cart";
 import CheckoutForm from "./src/components/Checkout/CheckoutForm";
+import OrderSuccess from "./src/components/Checkout/OrderSuccess";
 import { CartProvider } from "./context/CartContext";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/item/:id" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<CheckoutForm />} />
+          <Route path="/checkout/success/:orderId" element={<OrderSuccess />} />
         </Routes>
       </CartProvider>
     </BrowserRouter>
